@@ -34,10 +34,10 @@ function Navbar() {
           <a href="">Corporates</a>
         </li>
         <li>
-          <a href="">Offers</a>
+          <a href="/offer">Offers</a>
         </li>
         <li>
-          <a href="">Gift Cards</a>
+          <a href="/Giftcard">Gift Cards</a>
         </li>
       </ul>
     </div>
