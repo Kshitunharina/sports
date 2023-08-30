@@ -1,34 +1,38 @@
 import React from "react";
 import "./Nav.css";
+
 function Navbar() {
   return (
     <div className="navbar">
       <ul className="navlist">
         <li>
-          <a href="">Movies</a>
+          <a href="/movies">Movies</a>
         </li>
         <li>
-          <a href="">Stream</a>
+          <a href="/stream">Stream</a>
         </li>
         <li>
-          <a href="">Events</a>
+          <a href="/events">Events</a>
         </li>
         <li>
-          <a href="">Plays</a>
+          <a href="/plays">Plays</a>
         </li>
         <li>
           <a href="/sports">Sports</a>
         </li>
         <li>
-          <a href="">Activities</a>
+          <a href="/activities">Activities</a>
         </li>
         <li>
-          <a href="">Buzz</a>
+          <a href="/buzz">Buzz</a>
+        </li>
+        <li>
+          <a href="/icc">ICC men's cricket worldcup India 2023</a>
         </li>
       </ul>
       <ul className="navlist1">
         <li>
-          <a href="">ListYourshow</a>
+          <a href="/listyourshow">ListYourshow</a>
         </li>
         <li>
           <a href="">Corporates</a>
@@ -37,7 +41,7 @@ function Navbar() {
           <a href="/offer">Offers</a>
         </li>
         <li>
-          <a href="/Giftcard">Gift Cards</a>
+          <a href="/giftcard">Gift Cards</a>
         </li>
       </ul>
     </div>

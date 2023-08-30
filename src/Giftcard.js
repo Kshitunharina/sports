@@ -1,5 +1,6 @@
 import React from "react";
-import "./Giftcards.css"
+import "./Giftcards.css";
+import "./Giftcard.css";
 import Giftcards from "./Giftcards";
 import Giftcard2 from "./Giftcard2.js";
 import Giftcard3 from "./Giftcard3.js";
@@ -159,14 +160,31 @@ const card10 = [
 
 function Giftcard() {
   return (
-    <div className="GiftCards">
+    <div className="GiftCards" style={{ border: "2px solid black" }}>
       <div className="f-picture">
         <img
           src="https://assets-in.bmscdn.com/promotions/cms/creatives/1692874595339_fdf.jpg"
           alt=""
           style={{ width: "95%", margin: "25px" }}
         />
-        <p>Pick a card from one of our themes</p>
+        <div className="giftparent">
+          <button className="giftcard--btn">
+            <a href="">E-Gift cards</a>
+          </button>
+          <button className="giftcard--btn">
+            <a href="">Physical Giftcards</a>
+          </button>
+        </div>
+        <p style={{ textAlign: "center",width:"100vw" }}>
+          Pick a card from one of our themes
+        </p>
+       <div className="filtergift">
+       <button><a href="">All</a></button>
+        <button><a href="">Generic</a></button>
+        <button><a href="">Occasion</a></button>
+        <button><a href="">Festival</a></button>
+        <button><a href="" style={{color:"white"}}>Combos</a></button>
+       </div>
       </div>
       <div className="f-row">
         {card1.map((giftcd1) => {

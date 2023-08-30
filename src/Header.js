@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
 import Navbar from "./Nav.js";
+import Ntest from "./Ntest";
+import "./Test.css"
 function Header() {
   return (
     <div>
@@ -28,6 +30,7 @@ function Header() {
         </div>
       </header>
       <Navbar></Navbar>
+      
     </div>
   );
 }
