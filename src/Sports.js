@@ -39,9 +39,10 @@ const card = [
   },
   {
     img: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAyOCBBdWcgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00366947-zflfgsyuqr-portrait.jpg",
-    title: "Dorangos Chess Night Dorangos Cafe: Bandra",
-    para1: "Chess",
-    para2: "199 onwards",
+    title: "Dorangos Chess Night",
+    para1:"Dorangos Cafe: Bandra",
+    para2: "Chess",
+    para3: "199 onwards",
   },
 
   {
@@ -155,7 +156,7 @@ const card = [
     img: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VGh1LCAyIE5vdg%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:oi-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,ox-15,oy-15,ow-50:q-80/et00367224-zadvkmzsal-portrait.jpg",
     title: "Multiple Venues",
     para1: "Multiple Venues",
-    paar2: "ODI",
+    para2: "ODI",
     para3: "1500 onwards",
   },
   {
