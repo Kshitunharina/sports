@@ -20,8 +20,8 @@ const card = [
     img: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCA1IE5vdg%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00342539-ddvyhkxmkc-portrait.jpg",
     title: "Monsoon Mumbai Midnight Cycling",
     para1: "Meeting point, Mahalax.",
-    para3: "Cycling",
-    para2: "685 onwards",
+    para2: "Cycling",
+    para3: "685 onwards",
   },
   {
     img: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAxIFNlcCBvbndhcmRz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00349868-abuwdfvqdb-portrait.jpg",
