@@ -1,58 +1,70 @@
-.giftparent{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-   
+.giftparent {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 .giftcard--btn {
-  padding: 10px ;
+  padding: 10px;
   width: 200px;
   border: 1px solid rgb(174, 178, 182);
-
 }
 
-
-
-.giftcard--btn a{
-    text-decoration: none;
-    color: black;
+.giftcard--btn a {
+  text-decoration: none;
+  color: black;
 }
 
 .giftcard--btn:first-child {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
-.filtergift a{
-text-decoration: none;
-color: grey;
-
+.filtergift a {
+  text-decoration: none;
+  color: grey;
 }
-.filtergift a:hover{
-    color:white ;
-
+.filtergift a:hover {
+  color: white;
 }
 
-.filtergift  button{
-    border-radius: 25px;
-    padding: 5px 15px;
-    margin-left: 5px;
-    margin-right: 10px;
-    border: 1px solid gray;
-   background-color: white;
+.giftcardbtns {
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+  border: 1px solid gray;
+  background-color: white;
 }
 .filtergift {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.filtergift button:last-child{
-    background-color: rgb(235,78,98);
-    border: none;
-   
+.giftcardbtns:hover {
+  background-color: rgb(235, 78, 98);
+  color: white;
+  padding: 5px 15px;
+  margin-left: 5px;
+  margin-right: 10px;
 }
 
-.filtergift button:hover{
-    background-color: rgb(235,78,98);
-    color: white;
+.giftcardactive {
+  background-color: rgb(235, 78, 98);
+  color: white;
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.toggle--btn {
+  border: 2px solid green;
+  grid-row-gap: 25px;
+  margin-top: 5vh;
+}
+
+.toggle--btn img{
+    width: 300px;
+    height: 200px;
+
 }
